@@ -6,7 +6,7 @@ Author URI: http://www.wpshop.com
 Contributors: Takeaki Nagashima
 Tags: Page transitions, Slide, Sliding, Animations, Scroll, Effects
 Requires at least: 3.8
-Tested up to: 3.9.1 
+Tested up to: 4.0 
 Stable tag: Version 1.0 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
