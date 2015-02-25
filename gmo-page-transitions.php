@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: GMO Page Transitions
-Plugin URI: http://wpshop.com
+Plugin URI: https://www.wpcloud.jp/en/themes
 Description: GMO Page Transitions adds Page Transitions actions to your site. 
 Click on the link, and page will slide over to left or right. This effect will not apply when "target=_brank" is used.
 
-Version: 1.1
-Author: WP Shop byGMO
-Author URI: http://wpshop.com
+Version: 1.2
+Author: GMO WP Cloud
+Author URI: https://wpcloud.jp/en/
 */
 
 function ido_scripts() {
@@ -61,9 +61,9 @@ function ido_set(){
 	
     wp_enqueue_style('gmo-page-transitions-style',plugins_url('css/gmo-page-transitions.min.css', __FILE__));
 	$plugin_file_url = plugins_url() . '/';
-	$image_url1 = $plugin_file_url.'gmo-page-transitions/images/'.'wpshop_logo.png';
-	$image_url2 = $plugin_file_url.'gmo-page-transitions/images/'.'wpshop_bnr_themes.png';
-	$image_url3 = $plugin_file_url.'gmo-page-transitions/images/'.'wpshop_bnr_plugins.png';
+	$image_url1 = $plugin_file_url.'gmo-page-transitions/images/'.'wpcloud_bnr_themes.png';
+	$image_url2 = $plugin_file_url.'gmo-page-transitions/images/'.'wpcloud_bnr_plugins.png';
+	$image_url3 = $plugin_file_url.'gmo-page-transitions/images/'.'wpcloud_logo.png';
 	
 
 	echo <<<EOD
@@ -87,28 +87,17 @@ echo <<<EOD
 </div>
 <!-- #gmoplugLeft -->
 <div id="gmoplugRight">
+<p class="title">Recommended</p>
+<div>
 <h3>WordPress Themes</h3>
-<ul>
-<li><a href="https://wordpress.org/themes/kotenhanagara" target="_blank">Kotehanagara</a></li>
-<li><a href="https://wordpress.org/themes/madeini" target="_blank">Madeini</a></li>
-<li><a href="https://wordpress.org/themes/azabu-juban" target="_blank">Azabu Juban</a></li>
-<li><a href="http://wordpress.org/themes/de-naani" target="_blank">de naani</a></li>
-</ul>
-<a href="http://wpshop.com/themes?=vn_wps_pagetrasitions" target="_blank"><img src="{$image_url2}" alt="WPShop by GMO WordPress Themes for Everyone!"></a>
-<ul><li class="bnrlink"><a href="http://wpshop.com/themes?=wps_pagetrasitions" target="_blank">Visit WP Shop Themes</a></li></ul>
+<a href="https://www.wpcloud.jp/en/themes/?banner_id=plugins" target="_blank"><img src="{$image_url1}" alt="WordPress Themes for Everyone"></a>
+<p>Browse our recommended theme collection on GMO WP Cloud website.</p>
 <h3>WordPress Plugins</h3>
-<ul>
-<li><a href="http://wordpress.org/plugins/gmo-showtime/" target="_blank">GMO Showtime</a></li>
-<li><a href="http://wordpress.org/plugins/gmo-font-agent/" target="_blank">GMO Font Agent</a></li>
-<li><a href="http://wordpress.org/plugins/gmo-share-connection/" target="_blank">GMO Share Connection</a></li>
-<li><a href="http://wordpress.org/plugins/gmo-ads-master/" target="_blank">GMO Ads Master</a></li>
-<li><a href="http://wordpress.org/plugins/gmo-page-transitions/" target="_blank">GMO Page Trasitions</a></li>
-<li><a href="http://wordpress.org/plugins/gmo-go-to-top/" target="_blank">GMO Go to Top</a></li>
-</ul>
-<a href="http://wpshop.com/plugins?=vn_wps_pagetrasitions" target="_blank"><img src="{$image_url3}" alt="WPShop by GMO WordPress Plugins for Everyone!"></a>
-<ul><li class="bnrlink"><a href="http://wpshop.com/plugins?=wps_pagetrasitions" target="_blank">Visit WP Shop Plugins</a></li></ul>
-<h3>Contact Us</h3>
-<a href="http://support.wpshop.com/?page_id=15" target="_blank"><img src="{$image_url1}" alt="WPShop by GMO"></a>
+<a href="https://www.wpcloud.jp/en/themes/?banner_id=plugins#plugins" target="_blank"><img src="{$image_url2}" alt="WordPress Plugins for Everyone"></a>
+<p>Browse our recommended plugin collection on GMO WP Cloud website.</p>
+<h3>Who We Are</h3>
+<a href="https://www.wpcloud.jp/en/?banner_id=plugins" target="_blank" class="logo"><img src="{$image_url3}" alt="WPCloud by GMO"></a>
+</div>
 </div><!-- #gmoplugRight -->
 </div>
 <!-- #gmotransitions -->

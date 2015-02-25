@@ -1,20 +1,19 @@
 === Plugin Name ===
 
 Plugin Name: GMO Page Transitions
-Author: WP Shop byGMO
-Author URI: http://www.wpshop.com
+Author: GMO WP Cloud
+Author URI: https://www.wpcloud.jp/en/
 Contributors: Takeaki Nagashima
 Tags: Page transitions, Slide, Sliding, Animations, Scroll, Effects
 Requires at least: 3.8
-Tested up to: 4.0 
-Stable tag: Version 1.0 
+Tested up to: 4.1.1 
+Stable tag: Version 1.2 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-GMO Page Transition plugin gives an interesting moving effect when going to the next page.
-However, you may find it distracting rather than something we normally call them "useful". 
+GMO Page Transitions adds Page Transitions actions to your site. Click on the link, and page will slide over to left or right. This effect will not apply when "target=_brank" is used. 
 
 == Installation ==
 
